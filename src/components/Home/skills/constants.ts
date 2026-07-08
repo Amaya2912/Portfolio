@@ -13,6 +13,7 @@ import {
   SiTailwindcss,
   SiDocker,
   SiVite,
+  SiNextdotjs,
 } from 'react-icons/si';
 
 export type SkillLevel = 'Solid' | 'Comfortable' | 'Learning';
@@ -31,6 +32,8 @@ export const skills: Skill[] = [
   { id: 2, name: 'CSS', icon: createElement(SiCss), level: 'Solid', category: 'Frontend' },
   { id: 3, name: 'JavaScript', icon: createElement(SiJavascript), level: 'Solid', category: 'Frontend' },
   { id: 4, name: 'React', icon: createElement(SiReact), level: 'Comfortable', category: 'Frontend' },
+  { id: 13, name: 'Next.js', icon: createElement(SiNextdotjs), level: 'Learning', category: 'Frontend' },
+
   { id: 5, name: 'Tailwind CSS', icon: createElement(SiTailwindcss), level: 'Solid', category: 'Frontend' },
 
   { id: 6, name: 'Express', icon: createElement(SiExpress), level: 'Solid', category: 'Backend' },

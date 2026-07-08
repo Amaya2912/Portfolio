@@ -44,6 +44,13 @@ const projects = [
     description: "A web application for managing music festival events, including artist lineups, ticket sales, and schedule management, built with a focus on user experience and responsive design.",
     tags: ["JavaScript", "SCSS", "HTML"],
     link: "https://github.com/Amaya2912/Festival_de_Musica"
+  },
+   {
+    category: "Web",  
+    title: "Portfolio Website",
+    description: "A personal portfolio website showcasing projects, skills, and experience, designed with a modern aesthetic and responsive layout to highlight professional achievements.",
+    tags: ["TypeScript", "JavaScript", "CSS", "HTML"],
+    link: "https://github.com/Amaya2912/Portfolio"
   }
 ];
 

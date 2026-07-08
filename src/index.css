@@ -69,7 +69,7 @@ main section.reveal-visible {
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  max-width: 17ch;
+  max-width: 19ch;
   border-right: 0.18em solid rgba(255, 255, 255, 0.9);
   animation: typing 6s steps(24, end) infinite, blink-caret 0.75s step-end infinite;
 }
