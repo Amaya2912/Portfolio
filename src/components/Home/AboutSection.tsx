@@ -11,11 +11,11 @@ export default function AboutSection() {
           <div className="h-full flex flex-col">
             <div className="flex h-full flex-col justify-between rounded-3xl bg-slate-950/80 p-8 shadow-xl border border-slate-800">
               <div>
-                    <div className="mb-5 flex items-center gap-2">
+                    {/*<div className="mb-5 flex items-center gap-2">
                         <span className="h-3 w-3 rounded-full bg-red-500" />
                         <span className="h-3 w-3 rounded-full bg-amber-400" />
                         <span className="h-3 w-3 rounded-full bg-emerald-500" />
-                    </div>
+                    </div>*/}
 
                     <div className="space-y-4 font-mono text-slate-300">
                         <div>

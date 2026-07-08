@@ -19,7 +19,7 @@ export default function SkillsSection() {
   return (
     <section id="habilidades" className="rounded-3xl bg-black p-10 shadow-lg shadow-slate-950/40">
       <h2 className="text-3xl font-semibold text-white">What I use to build the web</h2>
-      <p className="mt-2 text-slate-400">A stack focused on React and modern frontend. These are my honest levels today.</p>
+      <p className="mt-2 text-slate-400">A stack focused on React and Node.js. These are my honest levels today.</p>
 
       <SkillsFilter
         categories={categories}

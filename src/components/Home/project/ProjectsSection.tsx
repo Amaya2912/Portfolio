@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     category: "Web",
-    title: "Faculty Recruitment Management System (SCPC)",
+    title: "Faculty Recruitment Management System (SCPC) - thesis project",
     description: "Developed a web application for managing the recruitment process of adjunct professors for the School of Systems Engineering at Universidad Industrial de Santander (UIS). Implemented job posting management, applicant registration, resume evaluation, interview scheduling, and recruitment process tracking",
     tags: ["Angular", "Nest.js", "PostgreSQL", "Docker"],
   },
@@ -12,22 +12,22 @@ const projects = [
     category: "Web",
     title: "Centauri Library",
     description: "Modular library offering multiple features, including authentication and external API integration, designed for React/Tailwind project showcase app.",
-    tags: ["TypeScript", "JavaScript"],
+    tags: ["TypeScript", "JavaScript", "Node.js", "Express"],
     link: "https://github.com/Daniel-Prada27/Centauri-backend"
     
   },
   {
     category: "Web",
     title: "Coworking hub",
-    description: "coworking reservation management system with user authentication and admin panel.",
-    tags: ["JavaScript", "Java", "HTML", "CSS", "Docker"],
+    description: "Coworking reservation management system with user authentication and admin panel.",
+    tags: ["JavaScript","React", "Java", "HTML", "CSS", "Docker"],
     link: "https://github.com/JustBeingLuis/CoworkingHub"
   },
   {
     category: "Web",
     title: "Event management system",
     description: "Simple event management system for scheduling, attendee tracking, and easy event administration in a clean React/Tailwind interface.",
-    tags: ["TypeScript", "JavaScript", "Java"],
+    tags: ["TypeScript", "JavaScript", "React", "Java"],
     link: "https://github.com/Amaya2912/Eventos_FullStack"
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     category: "Web",  
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing projects, skills, and experience, designed with a modern aesthetic and responsive layout to highlight professional achievements.",
-    tags: ["TypeScript", "JavaScript", "CSS", "HTML"],
+    tags: ["TypeScript", "JavaScript", "React", "Tailwind", "CSS", "HTML"],
     link: "https://github.com/Amaya2912/Portfolio"
   }
 ];

@@ -1,6 +1,6 @@
 export default function IntroSection() {
   return (
-    <section id="inicio" className="bg-black text-center flex flex-col items-center justify-center px-6 py-20">
+    <section id="inicio" className="bg-black text-center rounded-3xl flex flex-col items-center justify-center px-6 py-20">
       <p className="text-sm uppercase tracking-[0.4em] text-slate-400">Hi, My name is</p>
       <h1 className="mt-4 text-5xl font-black text-white sm:text-6xl">Jhon Amaya.</h1>
       <h2 className="mt-2 text-3xl font-semibold text-slate-300 sm:text-4xl typewriter">Full-stack Developer</h2>
