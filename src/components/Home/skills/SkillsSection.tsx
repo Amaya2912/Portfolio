@@ -35,7 +35,7 @@ export default function SkillsSection() {
             return (
               <div key={category}>
                 <CategoryHeader category={category} />
-                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                   {categorySkills.map((skill) => (
                     <SkillCard key={skill.id} skill={skill} />
                   ))}
@@ -44,7 +44,7 @@ export default function SkillsSection() {
             );
           })
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {visibleSkills.map((skill) => (
               <SkillCard key={skill.id} skill={skill} />
             ))}

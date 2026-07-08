@@ -36,9 +36,9 @@ export const skills: Skill[] = [
 
   { id: 5, name: 'Tailwind CSS', icon: createElement(SiTailwindcss), level: 'Solid', category: 'Frontend' },
 
-  { id: 6, name: 'Express', icon: createElement(SiExpress), level: 'Solid', category: 'Backend' },
+  { id: 6, name: 'Express', icon: createElement(SiExpress), level: 'Comfortable', category: 'Backend' },
   { id: 7, name: 'MongoDB', icon: createElement(SiMongodb), level: 'Comfortable', category: 'Backend' },
-  { id: 8, name: 'PostgreSQL', icon: createElement(SiPostgresql), level: 'Solid', category: 'Backend' },
+  { id: 8, name: 'PostgreSQL', icon: createElement(SiPostgresql), level: 'Comfortable', category: 'Backend' },
 
   { id: 9, name: 'Git', icon: createElement(SiGit), level: 'Solid', category: 'Tools' },
   { id: 10, name: 'Figma', icon: createElement(SiFigma), level: 'Learning', category: 'Tools' },
@@ -47,7 +47,7 @@ export const skills: Skill[] = [
 ];
 
 export const levelConfig: Record<SkillLevel,{ color: string; dots: number; label: string }> = {
-  Solid: { color: 'bg-green-500', dots: 4, label: 'Advanced' },
+  Solid: { color: 'bg-green-500', dots: 5, label: 'Advanced' },
   Comfortable: { color: 'bg-yellow-500', dots: 3, label: 'Intermediate' },
   Learning: { color: 'bg-orange-500', dots: 2, label: 'Learning' },
 };
