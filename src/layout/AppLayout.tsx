@@ -76,8 +76,13 @@ export default function AppLayout() {
         <Outlet />
       </main>
 
-      <footer className="py-5 text-center text-slate-400">
-        <p>&copy; 2026 Portafolio.</p>
+      <footer className="mt-20 border-t border-slate-800/80 bg-slate-950/70 px-6 py-8 text-slate-400 backdrop-blur">
+        <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 rounded-2xl border border-slate-800/80 bg-slate-900/70 px-6 py-5 shadow-[0_0_30px_rgba(34,211,238,0.08)] sm:flex-row">
+          <p className="text-sm font-medium text-slate-200">
+            <span className="text-gray-400">const</span> author = <span className="text-white">"Jhon Amaya"</span>
+          </p>
+          <p className="text-sm">&copy; 2026 Made with React + Tailwind CSS</p>
+        </div>
       </footer>
     </>
   );
