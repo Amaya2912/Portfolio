@@ -34,7 +34,7 @@ export const skills: Skill[] = [
   { id: 3, name: 'JavaScript', icon: createElement(SiJavascript), level: 'Solid', category: 'Frontend' },
   { id: 4, name: 'React', icon: createElement(SiReact), level: 'Solid', category: 'Frontend' },
   { id: 5, name: 'Tailwind CSS', icon: createElement(SiTailwindcss), level: 'Solid', category: 'Frontend' },
-  { id: 13, name: 'Next.js', icon: createElement(SiNextdotjs), level: 'Learning', category: 'Frontend' },
+  { id: 13, name: 'Next.js', icon: createElement(SiNextdotjs), level: 'Comfortable', category: 'Frontend' },
 
 
   { id: 14, name: 'Python', icon: createElement(SiPython), level: 'Comfortable', category: 'Backend' },
